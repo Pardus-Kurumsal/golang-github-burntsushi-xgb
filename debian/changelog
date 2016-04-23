@@ -1,0 +1,23 @@
+golang-github-burntsushi-xgb (0.0~git20160420) xenial; urgency=medium
+
+  * update to 20160420.
+
+ -- lilongyu <leaeasy@gmail.com>  Sat, 23 Apr 2016 21:50:53 +0800
+
+golang-github-burntsushi-xgb (0.0~git20151120) unstable; urgency=medium
+
+  * fix package name.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 25 Jan 2016 15:47:26 +0800
+
+golang-xgb (0.0+git20151209) unstable; urgency=medium
+
+  * update to 20151209. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 09 Dec 2015 06:49:02 +0800
+
+golang-xgb (0.0~git20140510-1) trusty; urgency=low
+
+  *  build with golang 1.3.1.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 03 Sep 2014 12:21:32 +0800

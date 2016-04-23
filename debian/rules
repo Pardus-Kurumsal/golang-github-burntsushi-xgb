@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_GOPKG := github.com/BurntSushi/xgb
+export DH_GOLANG_EXCLUDES := ${DH_GOPKG}/examples ${DH_GOPKG}/xgbgen ${DH_GOPKG}/res
+export DEB_BUILD_OPTIONS := nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_build:
+	cd xgbgen && go build
+	dh_auto_build
+
+override_dh_auto_clean:
+	rm -f xgbgen/xgbgen
+	dh_auto_clean
